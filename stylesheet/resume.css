@@ -1,0 +1,291 @@
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* header */
+
+header {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#toplist {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+#toplist li {
+    display: inline-block;
+    margin: 3px 20px 20px 0px;
+}
+
+#toplist li a {
+    text-decoration: none;
+    color: azure;
+    transition: color 0.5s, text-decoration 0.7s;
+}
+
+#toplist li a:hover {
+    text-decoration: underline;
+    color: rgb(20, 19, 15);
+    text-shadow: 0 0 20px rgb(170, 185, 33), 0 0 20px rgb(236, 240, 13), 0 0 30px #0c0a04, 0 0 40px #eed706fd, 0 0 50px #f5a911, 0 0 60px #f6faf6, 0 0 70px #f78d0c;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#about p {
+    width: 80%;
+    height: auto;
+    font-family: Verdana;
+    color: rgb(56, 26, 7);
+}
+
+#name {
+    font-size: 4rem;
+    color: rgb(9, 44, 4);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 11rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e0b94c, 0 0 40px #f7e11afd, 0 0 50px #ebb72a, 0 0 60px #e6e200, 0 0 70px #e48913;
+}
+
+#social-icons li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#social-icons li a i {
+    color: black;
+    align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#social-icons li a i:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #09e92e, 0 0 40px #55d3adfd, 0 0 50px #0b7013, 0 0 60px #13df68, 0 0 70px #13e4d3;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: #a0f5ba;
+}
+
+section:nth-child(2n+1) {
+    background-color: #f1f386;
+}
+
+
+/* about section   */
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#mypic {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#mypic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-color: #e0b94c;
+    border: 3px;
+}
+
+.sections {
+    color: #0e0d0d;
+    size: 2rem;
+}
+
+
+/* skilss section  */
+
+.skilldisplay {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.skill-progress {
+    width: 10rem;
+    height: 1.5rem;
+    background-color: black;
+    border-radius: 1rem;
+    border: 5px solid black;
+    margin: 1%;
+}
+
+
+/* individual skills */
+
+#webdevelopment {
+    width: 90%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#python {
+    width: 80%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#java {
+    width: 60%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#social {
+    width: 68%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#empathy {
+    width: 90%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#criticalthinking {
+    width: 79%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#leadership {
+    width: 86%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#creativity {
+    width: 124%;
+    height: inherit;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.technicalskill {
+    background-color: rgb(229, 151, 213);
+}
+
+.softskills {
+    background-color: rgb(241, 154, 113);
+}
+
+.skillname span {
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 1px;
+}
+
+
+/* experience  */
+
+.timeline {
+    position: relative;
+    width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timelinebox {
+    position: relative;
+    width: 45%;
+    left: 5%;
+    min-height: 150px;
+    margin: 5%;
+}
+
+.timelinebox h3 {
+    color: #1a0b15fd;
+}
+
+.timelinebox h4 {
+    color: #4d1a3cfd;
+}
+
+.timelinebox:nth-child(2n) {
+    left: 54%;
+}
+
+.divider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 1px dashed grey;
+    top: 10%;
+    left: 54%;
+}
+
+.traveler {
+    position: sticky;
+    top: 10%;
+    transform: rotate(90deg);
+    size: 10rem;
+}
+
+.imgs {
+    height: 29%;
+    width: 29%;
+}
+
+
+/* footer */
+
+#contact {
+    background-color: #89e4eb;
+}
+
+#socialicons li {
+    text-decoration: none;
+    display: block;
+}
+
+#socialicons li a i {
+    color: black;
+    align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.divi-der {
+    position: absolute;
+    height: 60%;
+    width: 0;
+    border: 1px solid rgb(17, 17, 17);
+    top: 10%;
+    left: 54%;
+}
+
+#contactdet {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
